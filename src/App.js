@@ -85,13 +85,11 @@ onAdd = (product)=>{
     this.setState({
       cart: [...this.state.cart, {...test, qty: 1}]
   })
+    this.cartQtyPlus()
+
   }
   setTimeout(()=>{
     this.updateCart()},100)
-
-  // setTimeout(()=>{
-  //   this.cartQty()}, 300)
-
 }
 
 //remove items
@@ -123,7 +121,7 @@ qtyUpdatePlus = (product)=>{
   let cart = this.state.cart[index]
   cart.qty++
   this.updateCart()
-  // this.cartQty()
+  this.cartQtyPlus()
 
 }
 
@@ -136,21 +134,31 @@ qtyUpdateMinus = (product)=>{
   cart.qty = 0
 }else{
   cart.qty--
+  this.cartQtyMinus()
 }
   this.updateCart()
   // this.cartQty()
 }
 
 //cart items qty
-// cartQty = () =>{
-//   this.state.cart.map((item)=>
-//   this.setState({
-//     cartItems: item.qty
-//   }))
-//   setTimeout(()=>{
-//     this.updateCartQty()
-//   }, 600)
-// }
+cartQtyPlus = () =>{
+  this.setState({
+    cartItems: this.state.cartItems+1
+  })
+  setTimeout(()=>{
+    this.updateCartQty()
+  }, 600)
+}
+
+cartQtyMinus = () =>{
+  this.setState({
+    cartItems: this.state.cartItems-1
+  })
+  setTimeout(()=>{
+    this.updateCartQty()
+  }, 600)
+}
+
 
 updateCartQty = () =>{
   this.setState({
@@ -189,7 +197,7 @@ updateCart = () =>{
         
     return (
       <div className='fluid-container g-0'>
-        <Header cartQty={this.state.cart}></Header>
+        <Header cartQty={this.state.cartItems}></Header>
         <div className='d-flex'>
           <Main toggleAddMenu = {this.toggleAddMenu} 
           menu={this.state.menu} onAdd = {this.onAdd} 
