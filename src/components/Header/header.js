@@ -18,7 +18,7 @@ export class Header extends Component {
                 </div>
                 <div className="basket-header w-25 bg-white shadow-sm d-flex justify-content-center align-items-center">
                     <h3>Cart</h3>
-                    <h4 className='cart-qty ms-3 mt-1'>{this.props.cartQty.length}</h4>
+                    <h4 className='cart-qty ms-3 mt-1'>{this.props.cartQty}</h4>
                     </div>
             </header>
             </>
