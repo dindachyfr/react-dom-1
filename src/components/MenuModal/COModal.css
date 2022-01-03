@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0
+}
+
+.container-modall{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,.5);
+}
+
+.container-modal, .container-modal-1 {
+    font-size: 1.25rem;
+    position: fixed;
+    top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1rem;
+    box-shadow: #998d83 -1px 2px 11px 1px;
+    border-radius: 1rem;
+    background-color: white;
+}
+.container-modal {
+    left: 25%;
+    width: 40vw;
+    height: 80vh;
+}
+
+.header-container-upper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.receipt-container {
+    /* height: 80%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: auto;
+}
+
+.text{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.receipt-item{
+    margin-bottom: .5rem;
+}
+
+.total-receipt{
+    text-align: end;
+}
+
+.receipt-button, .add-item-button {
+    margin: .5rem 1.5rem;
+    font-size: 1.5rem;
+    text-align: center;
+    border-radius: .5rem;
+    cursor: pointer;
+    color: white;
+}
+
+.print-button, .add-button-item{
+    background: #57CAD5;
+}
+
+.email-button, .cancel-button-item{
+    background: #F24F8A;
+}
+
+.lower-button-receipt h3 {
+    text-align: center;
+}
+
+.lower-button-receipt {
+    height: 20%;
+    margin-top: 0rem;
+}
+
+.container-modal-1 {
+    left: 35%;
+    width: 30vw;
+    height: 50vh;
+}
+
+input, select {
+    height: 3rem;
+    width: 19rem;
+    border: none;
+    font-size: 2rem;
+    box-shadow: #cbc4be 0px 0px 6px 1px;
+    border-radius: .25rem;
+}
+
+.form-name, .form-image, .form-price, .form-category{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+}
+
+.lower-button-item {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.add-item-button {
+    padding: auto;
+    width: 8rem;
+    text-align: center;
+}

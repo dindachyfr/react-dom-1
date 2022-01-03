@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0
+}
+
+.container-modall-1{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,.5);
+}
+
+.container-modal-1 {
+    font-size: 1.25rem;
+    position: fixed;
+    top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+    box-shadow: #998d83 -1px 2px 11px 1px;
+    border-radius: 1rem;
+    background-color: white;
+}
+
+
+.header-container-upper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.receipt-container {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.text{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.receipt-item{
+    margin-bottom: .5rem;
+}
+
+.total-receipt{
+    text-align: end;
+}
+
+.receipt-button, .add-item-button {
+    margin: .5rem 1.5rem;
+    font-size: 1.5rem;
+    text-align: center;
+    border-radius: .5rem;
+    cursor: pointer;
+    color: white;
+}
+
+.add-button-item{
+    background: #57CAD5;
+}
+
+.cancel-button-item{
+    background: #F24F8A;
+}
+
+.lower-button-receipt h3 {
+    text-align: center;
+}
+
+.lower-button-receipt {
+    height: 20%;
+}
+
+.container-modal-1 {
+    left: 35%;
+    width: 30vw;
+    height: 50vh;
+}
+
+input, select {
+    height: 3rem;
+    width: 15vw;
+    border: none;
+    font-size: 2rem;
+    box-shadow: #cbc4be 0px 0px 6px 1px;
+    border-radius: .25rem;
+}
+
+
+.lower-button-item {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.add-item-button {
+    padding: auto;
+    width: 8rem;
+    text-align: center;
+}
+
+.modalLabel{
+    font-size: 1.5rem;
+    margin-right: 100px;
+    margin-bottom: 30px;
+}
+.modalLabelPrice{
+    font-size: 1.5rem;
+    margin-right: 112px;
+    margin-bottom: 30px;
+}
+
+.modalLabelCategory {
+    font-size: 1.5rem;
+    margin-right: 9rem;
+    margin-bottom: 4rem;
+    margin-left: 2rem;
+}
+.modalInput{
+    width: 200px;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+

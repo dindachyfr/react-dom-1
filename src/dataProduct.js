@@ -1,0 +1,43 @@
+const dataProduct = {
+    products:[
+        {id: '1',
+        name: 'Espresso',
+        price: 10000,
+        image: 'https://upload.wikimedia.org/wikipedia/commons/a/a5/Tazzina_di_caff%C3%A8_a_Ventimiglia.jpg'},
+        {id: '2',
+        name: 'Cafe Latte',
+        price: 10000,
+        image: 'https://th.bing.com/th/id/R.b81627288ca568baa60e7e19021c927b?rik=jNPoug1tM7ZVhQ&riu=http%3a%2f%2fww1.prweb.com%2fprfiles%2f2013%2f10%2f15%2f11231637%2fwoodcap.jpg&ehk=0ZAREYW%2fS2K4tU7YBf5jEi8lCNBze%2fSxhbhB4qcWopg%3d&risl=&pid=ImgRaw&r=0'},
+        {id: '3',
+        name: 'Cappucino',
+        price: 5000,
+        image: 'https://static01.nyt.com/images/2015/10/02/fashion/02CAPP3SUB/02CAPP3SUB-superJumbo.jpg'},
+        {id: '4',
+        name: 'Red Velvet Latte',
+        price: 33000,
+        image: 'https://tul.imgix.net/content/article/red-velvet-lattes.jpg?auto=format,compress&w=740&h=486&fit=crop'},
+        {id: '5',
+        name: 'Choco Rum',
+        price: 28000,
+        image: 'https://images-gmi-pmc.edge-generalmills.com/bbfe0346-0abb-4adc-b924-e58abbd39bda.jpg'},
+        {id: '6',
+        name: 'Black Forest',
+        price: 30000,
+        image: 'https://th.bing.com/th/id/OIP.WsQwga4pG6Someodp6QUywHaHa?pid=ImgDet&rs=1'},
+        {id: '7',
+        name: 'Chicken Katsu',
+        price: 60000,
+        image: 'https://dashofsavory.com/wp-content/uploads/2017/02/IMG_96531-960x638.jpg'},
+        {id: '8',
+        name: 'Salmon Truffle',
+        price: 60000,
+        image: 'https://chefsheilla.com/wp-content/uploads/2020/02/IMG_3312-copy-3.jpg'},
+        {id: '9',
+        name: 'Wiener Schnietzel',
+        price: 69000,
+        image: 'https://th.bing.com/th/id/R.a583cd43b9708a04b7c2154768c5da6f?rik=qepwz0%2f3Aamb9A&riu=http%3a%2f%2fwww.melissadarabian.net%2fsite%2fassets%2fChicken-Milanese.jpg&ehk=m1swa3L5MK5v3x3xmUW5Sxac9t0aPULiutWuyb6X%2fDg%3d&risl=&pid=ImgRaw&r=0'},
+
+    ]
+}
+
+export default dataProduct
