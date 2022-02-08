@@ -24,10 +24,10 @@ Please have fun trying out this project!
 ![home](./src/assets/home.png)
 
 - Checkout Modal
-![signUp](./src/assets/checkout modal.png)
+![signUp](./src/assets/comodal.png)
 
 - History Page
-![history](./src/assets/history page.png)
+![history](./src/assets/history.png)
 
 
 ## Learn More
