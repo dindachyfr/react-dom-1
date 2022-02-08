@@ -1,0 +1,51 @@
+img.addMenu{
+    width: 56px;
+    height: 52px;
+}
+
+img.menu-icon {
+    position: absolute;
+    left: .5rem;
+    top: .2rem;
+}
+
+.history {
+    margin-top: 50px;
+    width: 100%;
+  }
+  .detail {
+    width: 25rem;
+    height: 10rem;
+    border-radius: 10px;
+  }
+  .infodetail h1 {
+    font-size: 18px;
+    margin: 0px;
+  }
+  
+  .infodetail h2 {
+    font-size: 25px;
+    margin: 0px;
+  }
+  .infodetail p {
+    font-size: 12px;
+    margin: 0px;
+  }
+  
+  .pink {
+    background-color: rgba(251, 178, 180, 1);
+  }
+  .blue {
+    background: linear-gradient(
+      278.29deg,
+      #29dfff 30.05%,
+      rgba(41, 223, 255, 0) 133.19%
+    );
+  }
+  .purple {
+    background: linear-gradient(
+      278.29deg,
+      #ab84c8 30.05%,
+      rgba(241, 201, 236, 0) 133.19%
+    );
+  }
